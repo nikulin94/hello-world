@@ -1,0 +1,18 @@
+package animation_and_sound_fla
+{
+	public class MainTimeline extends flash.display.MovieClip
+	{
+		public function MainTimeline()
+		{
+			addFrameScript(0, this.frame1, 545, this.frame546);
+		}
+		internal function frame1():*
+		{
+			stop();
+		}
+		internal function frame546():*
+		{
+			stop();
+		}
+	}
+}
